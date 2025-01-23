@@ -3,26 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LOGIN PAGE</title>
-    <link rel="stylesheet" href="SignIn.css">
+    <title>Sign_up</title>
+    <link rel="stylesheet" href="SignUp.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
 </head>
 <body>
     <div class="box">
         <div class="root">
             <form action="#">
-                <h1>Sign in</h1>
+                <h1>Sign up</h1>
                 <p>Stay connected to the Tech World !</p>
                 <div class="enteries">
+                <input type="text" placeholder="Enter your name" id="name">
+                <input type="tel : +91" placeholder="Enter your phone number" id="phone">
                 <input type="email" placeholder="Enter your Email" id="email">
                 <input type="password" placeholder="Enter Password" id="password">
                 <br/>
-                <a href="#" id="forget"> Forget Your Password?</a>
-                <br/>
-                <a href="#" id="button"><button>Sign in</button></a>
+                <div class="dashboards">
+                <input type="radio" id="students" value="check" >
+                <label for="students"> Students</label>
+                <input type="radio" id="Recruiter" value="check">
+                <label for="Recruiter">Recruiter</label>
+                </div>
+                <a href="#" id="button"><button>Sign Up</button></a>
                 </div>
                 
-                <p>------------------------ or sign in with -----------------------</p>
+                
+                <div>
+                    <p>Already have an account ? <a href="../Sing_In/SignIn.html">Sign up now.</a></p>
+                </div>
+                <p>------------------ or sign up with -------------------</p>
                 <div class="icons">
                     <a href="#"><i class="fa-brands fa-square-google-plus"></i></a>
                     <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
@@ -30,14 +41,11 @@
                     <a href="#"><i class="fa-brands fa-linkedin"></i></a>
     
                 </div> 
-                <div>
-                    <p> New to<b style="color: brown;"> JOBSEARCH </b>? <a href="../Sign_Up/SignUp.html">Sign up now.</a></p>
-                </div>
+                
     
             </form>
     
         </div>
     </div>
-   
 </body>
 </html>
